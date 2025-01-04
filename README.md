@@ -22,7 +22,56 @@
 
 CyberAI is an advanced artificial intelligence infrastructure that integrates blockchain technology and quantum-resistant algorithms to deliver unparalleled neural network capabilities. Designed for scalability, security, and efficiency, CyberAI revolutionizes the way AI interacts with data and processes information in a decentralized environment.
 
-![Architecture Diagram](./docs/architecture_diagram.png)
+## Architecture Diagram
+
+```mermaid
+graph TD
+    subgraph CyberAI Architecture
+        A[User Interface] -->|HTTP Requests| B[API Gateway]
+        
+        subgraph Backend Services
+            B --> C[AI Engine (Python)]
+            B --> D[Blockchain Node (Rust)]
+            B --> E[Network Intelligence (C++)]
+        end
+
+        subgraph AI Engine Components
+            C --> C1[Neural Network Module]
+            C --> C2[Data Processor]
+            C1 --> C3[TensorFlow & PyTorch]
+        end
+
+        subgraph Blockchain Components
+            D --> D1[Quantum Algorithms]
+            D --> D2[Blockchain Ledger]
+            D1 --> D3[Quantum-Resistant Encryption]
+            D2 --> D4[Hyperledger Fabric]
+        end
+
+        subgraph Network Intelligence Components
+            E --> E1[Traffic Analyzer]
+            E --> E2[Adaptive Defense Mechanisms]
+            E1 --> E3[Regex Pattern Matching]
+        end
+
+        subgraph Deployment
+            C --> F[Docker Container]
+            D --> F
+            E --> F
+            F --> G[Kubernetes Cluster]
+            G --> H[Cloud Infrastructure]
+        end
+    end
+
+    style A fill:#f9f,stroke:#333,stroke-width:2px
+    style B fill:#bbf,stroke:#333,stroke-width:2px
+    style C fill:#bfb,stroke:#333,stroke-width:2px
+    style D fill:#fbf,stroke:#333,stroke-width:2px
+    style E fill:#ffb,stroke:#333,stroke-width:2px
+    style F fill:#ccc,stroke:#333,stroke-width:2px
+    style G fill:#cfc,stroke:#333,stroke-width:2px
+    style H fill:#ccf,stroke:#333,stroke-width:2px```
+
 
 ## Features
 
