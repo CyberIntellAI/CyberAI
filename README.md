@@ -48,7 +48,7 @@ CyberAI is an advanced artificial intelligence infrastructure that integrates bl
 ```
 CyberAI/
 ├── README.md
-├── LICENSE
+├── api_documentation.md
 ├── .gitignore
 ├── rust_components/
 │   ├── Cargo.toml
@@ -75,8 +75,7 @@ CyberAI/
 │       ├── blockchain.cpp
 │       └── network_intelligence.cpp
 ├── docs/
-│   ├── architecture_diagram.png
-│   └── api_documentation.md
+│   └── architecture_diagram.png
 └── scripts/
     ├── setup.sh
     └── build.sh
@@ -168,7 +167,7 @@ This will execute the quantum-resistant encryption module.
 
 ## API Documentation
 
-For detailed API usage and endpoints, refer to the [API Documentation](./docs/api_documentation.md).
+For detailed API usage and endpoints, refer to the [API Documentation](./api_documentation.md).
 
 ### Summary of Available APIs
 
