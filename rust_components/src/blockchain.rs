@@ -55,9 +55,6 @@ impl Blockchain {
             previous_hash: last_block.hash.clone(),
             hash: self.calculate_hash(last_block.index + 1, &chrono::Utc::now().to_rfc3339(), data, &last_block.hash),
         };
-        // In a real implementation, you would handle concurrency and validation
-        // Here, we'll just append for simplicity
-        // self.chain.push(new_block);
     }
 
     fn calculate_hash(&self, index: u64, timestamp: &str, data: &str, previous_hash: &str) -> String {
