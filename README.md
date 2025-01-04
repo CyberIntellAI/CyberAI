@@ -22,7 +22,7 @@ CyberAI is an advanced artificial intelligence infrastructure that integrates bl
 
 ## Architecture Diagram
 
-[Architecture Diagram](./architecture.png).
+![Architecture Diagram](./architecture.png).
 
 
 ## Features
