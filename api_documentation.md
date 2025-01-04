@@ -103,9 +103,6 @@ CyberAI provides a suite of APIs to interact with its AI engines, blockchain nod
     }
     ```
 
-## Authentication
-
-*(Detail any authentication mechanisms if applicable.)*
 
 ## Error Handling
 
