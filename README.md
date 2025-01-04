@@ -1,6 +1,6 @@
 # CyberAI - Neural Networks Revolutionized
 
-![CyberAI Logo](./docs/cyberai.png)
+![CyberAI Logo](./docs/CyberAI.png)
 
 ## Table of Contents
 - [Introduction](#introduction)
