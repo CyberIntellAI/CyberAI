@@ -209,8 +209,6 @@ This project is licensed under the MIT License.
 
 ---
 
-Feel free to customize this `README.md` further to better fit the specific details and requirements of your CyberAI project. Good luck with your repository!
-
 ### Starting the Blockchain Node
 ```bash
 cd rust_components
