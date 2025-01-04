@@ -14,9 +14,7 @@
   - [Launching the AI Engine](#launching-the-ai-engine)
   - [Executing Quantum-Resistant Algorithms](#executing-quantum-resistant-algorithms)
 - [API Documentation](#api-documentation)
-- [Contributing](#contributing)
 - [License](#license)
-- [Contact](#contact)
 
 ## Introduction
 
@@ -24,53 +22,7 @@ CyberAI is an advanced artificial intelligence infrastructure that integrates bl
 
 ## Architecture Diagram
 
-```mermaid
-graph TD
-    subgraph CyberAI Architecture
-        A[User Interface] -->|HTTP Requests| B[API Gateway]
-        
-        subgraph Backend Services
-            B --> C[AI Engine (Python)]
-            B --> D[Blockchain Node (Rust)]
-            B --> E[Network Intelligence (C++)]
-        end
-
-        subgraph AI Engine Components
-            C --> C1[Neural Network Module]
-            C --> C2[Data Processor]
-            C1 --> C3[TensorFlow & PyTorch]
-        end
-
-        subgraph Blockchain Components
-            D --> D1[Quantum Algorithms]
-            D --> D2[Blockchain Ledger]
-            D1 --> D3[Quantum-Resistant Encryption]
-            D2 --> D4[Hyperledger Fabric]
-        end
-
-        subgraph Network Intelligence Components
-            E --> E1[Traffic Analyzer]
-            E --> E2[Adaptive Defense Mechanisms]
-            E1 --> E3[Regex Pattern Matching]
-        end
-
-        subgraph Deployment
-            C --> F[Docker Container]
-            D --> F
-            E --> F
-            F --> G[Kubernetes Cluster]
-            G --> H[Cloud Infrastructure]
-        end
-    end
-
-    style A fill:#f9f,stroke:#333,stroke-width:2px
-    style B fill:#bbf,stroke:#333,stroke-width:2px
-    style C fill:#bfb,stroke:#333,stroke-width:2px
-    style D fill:#fbf,stroke:#333,stroke-width:2px
-    style E fill:#ffb,stroke:#333,stroke-width:2px
-    style F fill:#ccc,stroke:#333,stroke-width:2px
-    style G fill:#cfc,stroke:#333,stroke-width:2px
-    style H fill:#ccf,stroke:#333,stroke-width:2px```
+[Architecture Diagram](./architecture.png).
 
 
 ## Features
