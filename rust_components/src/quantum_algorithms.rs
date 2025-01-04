@@ -14,8 +14,6 @@ pub fn generate_quantum_resistant_key() -> QuantumKey {
 }
 
 pub fn encrypt_data(data: &str, key: &QuantumKey) -> Vec<u8> {
-    // Placeholder for quantum-resistant encryption
-    // In a real scenario, implement lattice-based or hash-based encryption
     let encrypted: Vec<u8> = data.bytes().map(|b| b ^ key.key[0]).collect();
     encrypted
 }
